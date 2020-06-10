@@ -5,7 +5,7 @@
     file:
       path: /home/ansible/testfile
       state: touch
-  -name: create directory
-   file:
-   path: /home/ansible/testdir
-   state: directory
+  - name: create directory
+    file:
+      path: /home/ansible/testdir
+      state: directory
